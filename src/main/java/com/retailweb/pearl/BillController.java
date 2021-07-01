@@ -10,7 +10,7 @@ public class BillController {
 
 	public static void main(String[] args) {
         System.out.println("This is test");
-        new BillController().getBill();
+    
 	}
 
 
@@ -26,4 +26,13 @@ List<Bill> billProducts = billService.getBills();
 return billProducts;
 }
 
+
+@GetMapping(value = "/netPayment")
+public List<BillNetPayment> getBillsNetPay(){
+
+List<BillNetPayment> billsNetPay = billService.getBillsNetPay();
+System.out.println(billsNetPay);
+return billsNetPay;
+
+}
 }

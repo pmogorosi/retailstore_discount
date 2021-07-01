@@ -1,6 +1,6 @@
 package com.retailweb.pearl;
 
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
 
 public class Bill {
@@ -20,6 +20,8 @@ public class Bill {
      
      
   }
+
+  public Bill(){}
 
   
 

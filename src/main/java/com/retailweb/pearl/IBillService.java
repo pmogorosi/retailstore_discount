@@ -7,5 +7,7 @@ import org.springframework.stereotype.Service;
 public interface IBillService {
 
     List<Bill> getBills();
+
+    List<BillNetPayment> getBillsNetPay();
     
 }
